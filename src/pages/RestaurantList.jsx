@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
     function RestaurantList() {
 
-        const API_URL = "http://localhost:5000";
+        const API_URL = "https://json-server-backend-dkrn.onrender.com";
 
         const [restaurants, setRestaurants] = useState([]);
 
@@ -16,6 +16,8 @@ import { Link } from "react-router-dom";
         }, [])
 
         return (
+          <div>
+            <NavBar/>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
   <h2 className="text-3xl font-bold my-8 col-span-full">Lisbon Restaurant Guide</h2>
   {restaurants && restaurants.map((restaurant) => (
@@ -51,6 +53,7 @@ import { Link } from "react-router-dom";
       </div>
     </div>
   ))}
+</div>
 </div>
         );
     }

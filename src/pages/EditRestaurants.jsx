@@ -10,7 +10,7 @@ function EditRestaurants () {
     const {id} = useParams();
     const navigate = useNavigate();
 
-    const API_URL = "http://localhost:5000";
+    const API_URL = "https://json-server-backend-dkrn.onrender.com";
 
    useEffect(()=>{
         axios.get(`${API_URL}/restaurants/${id}/edit`).then((response)=>{

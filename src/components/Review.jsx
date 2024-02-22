@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://json-server-backend-dkrn.onrender.com";
 
 function Review(props) {
     const [userReview, setUserReview] = useState("");
