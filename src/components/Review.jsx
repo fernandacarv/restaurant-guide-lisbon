@@ -40,7 +40,7 @@ function Review(props) {
             <form onSubmit={handleSubmit} className="w-full mx-auto">
                 <div className="mb-5">
                 <label className="block mb-2 text-sm font-medium text-gray-700"htmlFor="username">Name:</label>
-                <textarea className="block p-2 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 resize-none" placeholder='Name...'
+                <textarea className="block p-2 w-full text-sm text-white bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 resize-none" placeholder='Name...'
                     type="text"
                     id="username"
                     name="username"
@@ -51,7 +51,7 @@ function Review(props) {
                 </div>
                 <div className='mb-5'>
                 <label className="block mb-2 text-sm font-medium text-gray-700" htmlFor="userReview">Write a review:</label>
-                <textarea  className="block p-2.5 w-full h-30 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 resize-none" rows="4" placeholder="Leave a comment..."
+                <textarea  className="block p-2.5 w-full h-30 text-sm text-white bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 resize-none" rows="4" placeholder="Leave a comment..."
                     type="text"
                     id="userReview"
                     name="userReview"
