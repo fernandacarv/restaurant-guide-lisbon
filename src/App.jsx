@@ -17,7 +17,6 @@ function App() {
 
   return (
     <main>
-      <NavBar/>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/searchresultpage' element={<SearchResultPage />} />

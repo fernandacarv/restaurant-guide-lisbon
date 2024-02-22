@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
     function RestaurantList() {
 
-        const API_URL = "https://json-server-backend-dkrn.onrender.com/";
+        const API_URL = "http://localhost:5000";
 
         const [restaurants, setRestaurants] = useState([]);
 
