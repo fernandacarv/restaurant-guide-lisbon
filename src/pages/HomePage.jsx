@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import NavBar from "../components/NavBar";
-import background from "../assets/images/background.jpg"
+import background from "../assets/images/background2.jpg"
+
 
 function HomePage () {
     return (

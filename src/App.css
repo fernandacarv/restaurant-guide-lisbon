@@ -3,22 +3,16 @@
   margin: 0; 
   padding: 0; 
   text-align: center;
-  background-color: #01084f
+  background-color: #202020	;
 }
 
 .navbar {
   background-color: transparent;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
 
 .demo-bg {
-  opacity: 0.8;
+  opacity: 0.5;
   position: absolute;
   left: 0;
   top: 0;

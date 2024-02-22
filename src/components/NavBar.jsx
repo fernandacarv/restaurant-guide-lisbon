@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from "../assets/images/logo.jpg"
 import { Link } from 'react-router-dom';
+import logo from "../assets/images/logo3.png"
 
 const NavBar = () => {
     return (
@@ -9,19 +9,19 @@ const NavBar = () => {
     <div className="flex items-center justify-center">
       <Link to="/">
         <img 
-          className="h-14 w-auto mr-9"
+          className="h-16 w-auto mr-9 bg-transparent"
           src={logo}
           alt="Your Company"
         />
       </Link>
       <div className="sm:block flex space-x-10">
         <Link to='/'>
-          <button className="bg-black text-white rounded-md px-3 py-2 text-lg border-gray-500">Lisbon Bites</button>
+          <button className="bg-gray-300 text-orange-600 rounded-md px-3 py-2 text-lg border-gray-500">Lisbon Bites</button>
         </Link>
         <Link to="/">
           <button
             href="#"
-            className="bg-black text-white rounded-md px-3 py-2 text-lg border-gray-500"
+            className="bg-gray-300 text-orange-600 rounded-md px-3 py-2 text-lg border-gray-500"
             aria-current="page"
           >
             Homepage
@@ -29,13 +29,13 @@ const NavBar = () => {
         </Link>
         <Link to="/about">
           <button
-            className="bg-black text-white px-3 py-2 text-lg rounded-md border-gray-500"
+            className="bg-gray-300 text-orange-600 px-3 py-2 text-lg rounded-md border-gray-500"
           >
             About
           </button>
         </Link>
         <Link to="restaurants/add">
-          <button className='border border-gray-500 bg-black text-white rounded-md px-3 py-2 text-lg'>+ Add Restaurant</button>
+          <button className='border border-gray-500 bg-gray-300 text-orange-600 rounded-md px-3 py-2 text-lg'>+ Add Restaurant</button>
         </Link>
       </div>
     </div>

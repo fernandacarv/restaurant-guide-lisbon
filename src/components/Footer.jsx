@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.jpg"
+import logo from "../assets/images/logo3.png"
 
 
 function Footer(){
@@ -13,7 +13,7 @@ function Footer(){
           <div className="sm:flex sm:items-center sm:justify-center w-full max-w-4xl">
             <div className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                <Link to="/" className=" flex items-center"><img src={logo} className="h-8" alt="Logo" /></Link>
-                <Link><h2 className="self-center font-semibold dark:text-white hover:text-[#747bff]">Restaurant Guide</h2>
+                <Link><h2 className="self-center font-semibold dark:text-white hover:text-[#747bff]">Lisbon Bites</h2>
               </Link>
               <a
                 href="https://github.com/"
