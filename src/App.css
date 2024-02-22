@@ -3,6 +3,7 @@
   margin: 0; 
   padding: 0; 
   text-align: center;
+  background-color: #2b3a4d;
 }
 
 .navbar {
@@ -43,6 +44,3 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}

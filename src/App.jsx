@@ -25,7 +25,7 @@ function App() {
         {/* you create a Route so that when we click on a button it redirects you the list of restaurantsList page */}
         <Route path='/restaurants' element={<RestaurantList/>}/>
         <Route path='/restaurants/:id' element={<RestaurantDetailPage/>}/>
-        <Route path="/restaurants/add" element={<AddRestaurantPage/>}/>
+        <Route path="restaurants/add" element={<AddRestaurantPage/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path='/restaurants/:id/edit' element={<EditRestaurants/>}/>
         <Route path='*' element={<ErrorHandlingPage/>}/>
