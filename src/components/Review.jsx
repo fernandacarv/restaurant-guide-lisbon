@@ -40,7 +40,7 @@ function Review(props) {
             <form onSubmit={handleSubmit} className="w-full mx-auto">
                 <div className="mb-5">
                 <label className="block mb-2 text-sm font-medium text-gray-700"htmlFor="username">Name:</label>
-                <textarea className="block p-2 w-full text-sm rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 bg-gray-900 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 resize-none" placeholder='Name...'
+                <textarea className="block p-2 w-full text-sm rounded-lg border text-white border-gray-300 focus:ring-blue-500 focus:border-blue-500 bg-gray-900 resize-none" placeholder='Name...'
                     type="text"
                     id="username"
                     name="username"
