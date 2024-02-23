@@ -63,7 +63,7 @@ function RestaurantDetailPage() {
             <h4 className="text-lg font-bold mb-2 text-gray-800">Reviews</h4>
             {restaurantDetails.reviews.map((review, i) => (
               <div key={i} className="mb-4">
-                <p className="text-lg text-gray-800">&quot;{review.userReview}&quot;</p>
+                <p className="text-lg text-gray-800 italic">&quot;{review.userReview}&quot;</p>
                 <h4 className="text-mg font-bold mb-2 text-gray-800">{review.username}</h4>
               </div>
             ))}
